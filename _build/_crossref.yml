@@ -1,0 +1,63 @@
+ES:
+  toc-title: Tabla de Contenidos
+  crossref:
+    fig-title: Fig.     
+    tbl-title: Tabla     
+    eq-title: Ecuación   
+    eq-prefix: ecuación       
+    tbl-prefix: tabla         
+    fig-prefix: figura
+EN:
+  toc-title: Table of Contents
+  crossref:
+    fig-title: Fig.     
+    tbl-title: Table     
+    eq-title: Equation   
+    eq-prefix: eq.       
+    tbl-prefix: tbl.     
+    fig-prefix: fig.
+RU:
+  toc-title: Содержание
+  crossref:
+    fig-title: Рис.     
+    tbl-title: Таблица     
+    eq-title: Уравнение   
+    eq-prefix: уравнение       
+    tbl-prefix: таблица         
+    fig-prefix: рисунок
+PT:
+  toc-title: Conteúdo
+  crossref:
+    fig-title: Fig.     
+    tbl-title: Tabela     
+    eq-title: Equação   
+    eq-prefix: equação       
+    tbl-prefix: tabela         
+    fig-prefix: figura
+TR:
+  toc-title: İçindekiler
+  crossref:
+    fig-title: Şek.     
+    tbl-title: Tablo     
+    eq-title: Denklem   
+    eq-prefix: denklem       
+    tbl-prefix: tablo         
+    fig-prefix: şekil
+DE:
+  toc-title: Inhaltsverzeichnis
+  crossref:
+    fig-title: Abb.     
+    tbl-title: Tabelle     
+    eq-title: Gleichung   
+    eq-prefix: Gleichung       
+    tbl-prefix: Tabelle         
+    fig-prefix: Abbildung
+FR:
+  toc-title: Table des matières
+  crossref:
+    fig-title: Fig.     
+    tbl-title: Tableau     
+    eq-title: Équation   
+    eq-prefix: équation       
+    tbl-prefix: tableau         
+    fig-prefix: figure

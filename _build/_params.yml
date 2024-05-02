@@ -1,0 +1,12 @@
+link-citations: true
+colorlinks: true
+fontsize: 11pt
+citation: true
+appendix-cite-as: display
+google-scholar: true
+execute:
+  eval: true
+  echo: false
+  include: false
+  keep-md: false
+  freeze: false

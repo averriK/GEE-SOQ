@@ -1,0 +1,81 @@
+project:
+  type: default
+  output-dir: _publish
+engine: knitr
+jupyter: python3
+link-citations: true
+colorlinks: true
+fontsize: 11pt
+citation: true
+appendix-cite-as: display
+google-scholar: true
+execute:
+  eval: true
+  echo: false
+  include: false
+  keep-md: false
+  freeze: false
+reference-doc: _build/styles.docx
+author:
+- name: Alejandro Verri Kozlowski
+  orcid: 0000-0002-8535-1170
+  email: averri@srk.com.ar
+  attributes:
+    corresponding: true
+  affiliations:
+    id: SRK
+    name: SRK Consulting
+    department: ~
+    address: ~
+    city: ~
+    country: Argentina
+    postal_code: 1127
+- name: Diana Katherina Reyes
+  orcid: ~
+  email: dreyes@srk.com
+  attributes:
+    corresponding: ~
+  affiliations:
+    id: SRK
+    name: SRK Consulting
+    department: ~
+    address: ~
+    city: ~
+    country: United States
+    postal_code: ~
+format:
+  html:
+    output-file: index.html
+    theme: spacelab
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: false
+    mainfont: Arial
+    fontsize: 12pt
+    link-citations: true
+    code-fold: true
+    code-copy: true
+    citation-location: document
+    reference-location: margin
+    grid:
+      body-width: 1400px
+      sidebar-width: 400px
+      margin-width: 300px
+  docx:
+    output-file: article.docx
+    reference-doc: _build/styles.docx
+toc-title: Table of Contents
+crossref:
+  fig-title: Fig.
+  tbl-title: Table
+  eq-title: Equation
+  eq-prefix: eq.
+  tbl-prefix: tbl.
+  fig-prefix: fig.
+params:
+  background: white
+  render: none
+  ext: png
+  lang: EN
+

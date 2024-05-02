@@ -1,0 +1,9 @@
+
+
+{{< include qmd/_discipline.qmd >}}
+
+
+{{< include qmd/_people.qmd >}}
+
+
+{{< include qmd/_experience.qmd >}}
