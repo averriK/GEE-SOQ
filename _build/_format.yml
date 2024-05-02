@@ -1,0 +1,42 @@
+format:
+  html:    
+    output-file: index.html
+    theme: spacelab 
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: false
+    mainfont: Arial
+    fontsize: 12pt
+    link-citations: true
+    code-fold: true
+    code-copy: true
+    citation-location: document #block,section,document, margin
+    reference-location: margin ##block,section,document, margin
+    grid: 
+      body-width: 1400px
+      sidebar-width: 400px
+      margin-width: 300px
+  revealjs:
+    output-file: summary.html
+    theme: simple
+    smaller: true
+    scrollable: true
+    slideNumber: true
+    center: true
+    controls: true
+    progress: true
+    history: true
+    transition: slide  
+  docx: 
+    output-file: article.docx
+    reference-doc: _build/styles.docx
+  els-pdf: 
+    output-file: article.pdf
+    keep-tex: true
+    journal:
+      name:  
+      formatting: preprint # preprint, review, doubleblind
+      model: 3p # 1p, 3p
+      layout: onecolumn # onecolumn, twocolumn
+      cite-style: authoryear # super, numbername authoryear
