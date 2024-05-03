@@ -1,6 +1,6 @@
 
 
-{{< include qmd/_discipline.qmd >}}
+{{< include qmd/_disciplines.qmd >}}
 
 
 {{< include qmd/_people.qmd >}}
